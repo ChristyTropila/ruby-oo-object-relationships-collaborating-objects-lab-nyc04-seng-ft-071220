@@ -9,10 +9,10 @@ class Song
 
 def initialize(name_param)
   @name=name_param
-  @@all << self 
+  @@all << self
 end
 
-def self.all 
+def self.all
   @@all
 end
 
