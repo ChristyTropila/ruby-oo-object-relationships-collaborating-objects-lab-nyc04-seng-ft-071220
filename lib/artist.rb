@@ -17,6 +17,11 @@ def self.all
   @@all
 end
 
+def add_song(name)
+  Song.new(name)=self
+end
+
+end
 
 
 end
