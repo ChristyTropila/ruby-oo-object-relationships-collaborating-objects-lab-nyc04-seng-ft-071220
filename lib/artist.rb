@@ -18,7 +18,7 @@ def self.all
 end
 
 def add_song(name)
-  Song.new(name)=self
+  Song.new(name)==self
 end
 
 end
