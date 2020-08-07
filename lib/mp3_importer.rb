@@ -11,7 +11,7 @@ class MP3Importer
     # end
 
     def import(list_of_filenames)
-      list_of_filenames.each{ |mp3_importer.rb| Song.new_by_filename(mp3_importer.rb) }
+      list_of_filenames.each{ |./spec/fixtures/mp3s| Song.new_by_filename(./spec/fixtures/mp3s) }
     end
     def import
       files.each{|f| Song.new_by_filename(f)}
